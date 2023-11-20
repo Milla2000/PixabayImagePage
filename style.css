@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  /* display: grid; */
+}
+#image-container {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+  
+
+  
+ 
+}
+
+.image-item {
+  width: 100%;
+  height: auto;
+}
